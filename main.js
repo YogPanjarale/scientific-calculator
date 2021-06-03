@@ -75,7 +75,7 @@ class Calculator {
     // return floatNumber.toLocaleString('en')
   }
   updateDisplay(){
-    console.log(this);
+    // console.log(this);
     this.currentOperandTextElement.innerText = this.getDisaplyNumber(this.currentOperand)
     if ( this.operation !=null){
       this.previousOperandTextElement.innerText=`${this.getDisaplyNumber(this.previousOperand)} ${this.operation}`
